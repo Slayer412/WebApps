@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP._HiigYE5ymwguZ50oOz9ygHaEo%26pid%3DApi&f=1");
+    background-size: cover;
+    padding: 10px 10px 10px 10px;
+}
+
+header {
+    text-align: center;
+    font-family: 'Ranchers', cursive;
+    font-size: x-large;
+    color: #ffffff;
+}
+
+section {
+    color: #ffffff;
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+    width: 200px;
+    display: inline-block;
+    margin: 20px;
+    padding: 40px 40px;
+    padding-top: 20px;  
+    position: relative;
+}
+
+section:hover {
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+    color: #000000;
+    border: none;
+    border-radius: 25px;
+    padding-top: 20px;
+}
+
+.one {
+    position: fixed;
+    margin-left: 200px;
+    padding-left: 60px;
+}
+
+#second{
+    float: right;
+}
+
+
+button:hover {
+    background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    color: #ffffff;
+}
+
+input {
+    border: none;
+    border-radius: 25px;
+    padding: 4px;
+    background: rgba(0, 0, 0, 0.37);
+}
+
+input:active {
+    border: none;
+    border-radius: 25px;
+    padding: 4px;
+    background: rgba(0, 0, 0, 0.37);
+}
+
+input:focus {
+    background: #98fb9891;
+    border: none;
+    border-radius: 25px;
+    padding: 4px;
+}
+
+h4 {
+    color: #ffffff;
+    font-size: large;
+    
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.weather-block{
+    font-family: 'Pacifico', cursive;
+}
